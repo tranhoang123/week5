@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
-import kotlinx.android.synthetic.main.now_playing.*
+import kotlinx.android.synthetic.main.fragment.*
 import java.io.IOException
 import okhttp3.*
 import com.google.gson.GsonBuilder
@@ -26,7 +26,7 @@ class nowPlayingFragment : Fragment() {
 //    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val view: View = inflater.inflate(R.layout.now_playing, container, false)
+        val view: View = inflater.inflate(R.layout.fragment, container, false)
         return view
     }
 

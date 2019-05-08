@@ -7,14 +7,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.google.gson.Gson
-import kotlinx.android.synthetic.main.now_playing.*
+import kotlinx.android.synthetic.main.fragment.*
 import okhttp3.*
 import java.io.IOException
 
 class topRateFragment : Fragment() {
     lateinit var movieAdapter: MovieAdapter
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.now_playing, container, false)
+        return inflater.inflate(R.layout.fragment, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
